@@ -5,11 +5,8 @@ This folder contains the ablation studies used to evaluate the contribution of d
 ## 1. Channel and Representation Ablation
 
 Files:
-
-```text
 EEGEvoDualGraphGRU_ablation_Channels.py
 train_ablation_Channels.py
-```
 
 Four configurations are evaluated:
 
@@ -21,19 +18,13 @@ Four configurations are evaluated:
 These experiments evaluate the contribution of frontal EEG channels and the complementary roles of temporal and frequency EEG representations.
 
 Run:
-
-```bash
 python train_ablation_Channels.py
-```
 
 ## 2. Model Module Ablation
 
 Files:
-
-```text
 EEGEvoDualGraphGRU_ablation_models.py
 train_ablations_Models.py
-```
 
 Three key components of EvoDG are evaluated:
 
@@ -43,9 +34,8 @@ Three key components of EvoDG are evaluated:
 
 Run all module ablations:
 
-```bash
 python train_ablations_Models.py
-```
+
 
 The experiments follow the same five-fold evaluation protocol as the full EvoDG model. Accuracy and Macro-F1 are used as the main performance metrics.
 
